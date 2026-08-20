@@ -1,1 +1,8 @@
+Install playwright
+---------Run this command to run the project with all cases------------
+npx playwright test tests/Createalc.spec.ts --headed --workers=1 --reporter=list
+
+
+---------Run this command to record the playwright script------------
+npx playwright codegen http://localhost:8080/synergy/faces/login.xhtml
 
